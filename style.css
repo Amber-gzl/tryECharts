@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 居中对齐 */
+#chartBox div{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#chartBox {
+    width: 100%;
+}

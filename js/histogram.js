@@ -112,12 +112,14 @@ option = {
                     if(mon<10) mon = '0'+mon;
                     let day = (new Date(s)).getDate();
                     if(day<10) day = '0'+day;
-                    return mon+'-'+day;
+                    return mon+'-'+ day;
                 }
             }
         },
         title: {
             subtext: '数据来自臻善科技'
+        },
+        tooltip: {
         },
         legend: {
             left: 'right',
